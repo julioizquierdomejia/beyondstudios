@@ -1,0 +1,157 @@
+html, body{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: calibri;
+}
+
+body{
+	background-color: #fcc128;
+}
+
+.container{
+	height: 100%;
+	display: table;
+	width: 100%;
+	position: relative;
+}
+
+.content{
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+}
+
+ul.logoBeyond{
+	max-width:532px;
+	height:236px;
+	list-style: none;
+	padding:0;
+	margin: 0 auto;
+}
+
+
+.logoBeyond li{
+	padding:0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.logoBeyond li img{
+	width: 100%;
+	height: auto;
+}
+
+.button{
+	margin-top: 32px;
+}
+
+.button a{
+	font-size: 20px;
+	border: solid 2px white;
+	border-radius: 12px;
+	display: inline;
+	text-decoration: none;
+	color: white;
+	padding: 14px 18px;
+	transition: 0.25s;
+}
+
+.button a:hover{
+	background-color: white;
+	color: #fcc128;
+}
+
+.footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding-bottom: 32px;
+}
+
+.footer ul{
+	list-style: none;
+	padding: 0;
+}
+
+.footer ul li{
+	float: left;
+	padding: 0;
+	margin: 0;
+	width: 33.33%;
+	text-align: center;
+}
+
+.footer ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+@media (max-width:768px){
+	ul.logoBeyond{
+		max-width:315px;
+		height:139px;
+		list-style: none;
+		padding:0;
+		margin: 0 auto;
+	}
+
+	.button{
+		margin-top: 6px;
+	}
+
+	.button a{
+		font-size: 14px;
+		border: solid 2px white;
+		border-radius: 12px;
+		display: inline;
+		text-decoration: none;
+		color: white;
+		padding: 8px 12px;
+		transition: 0.25s;
+	}
+
+	.footer{
+		padding-bottom: 10px;
+	}
+
+	.footer ul li{
+		font-size: 12px;
+	}	
+}
+
+@media (max-width:320px){
+	ul.logoBeyond{
+		max-width:200px;
+		height:88px;
+		list-style: none;
+		padding:0;
+		margin: 0 auto;
+	}
+
+	.button{
+		margin-top: 6px;
+	}
+
+	.button a{
+		font-size: 12px;
+		border: solid 2px white;
+		border-radius: 12px;
+		display: inline;
+		text-decoration: none;
+		color: white;
+		padding: 6px 10px;
+		transition: 0.25s;
+	}
+
+	.footer{
+		padding-bottom: 10px;
+	}
+
+	.footer ul li{
+		font-size: 12px;
+	}	
+}
